@@ -14,7 +14,16 @@ body {
     box-shadow: 0 0 10px #ddd;
     padding: 20px;
   }
-  
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000; /* Ensure the navigation bar is above other elements */
+  }
+
+
+
   header {
     text-align: center;
   }
